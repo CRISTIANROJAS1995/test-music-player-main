@@ -1,0 +1,25 @@
+name: music_player
+description: A Flutter app coding challenge for developers.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  cached_network_image: ^3.2.1 # Save the images in cache to not relado every time
+  shimmer: ^2.0.0 # A package provides an easy way to add shimmer effect in images
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
